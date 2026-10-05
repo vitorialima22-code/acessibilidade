@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segurança Digital - Guia Fácil para a Terceira Idade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="aplicativo-conteiner">
+
+    <!-- Atalho de acessibilidade para leitores de tela -->
+    <a href="#conteudo-principal" class="link-pular-conteudo">Ir para o conteúdo principal</a>
+
+    <!-- Cabeçalho Principal -->
+    <header class="cabecalho-principal" role="banner">
+      <div class="cabecalho-conteudo">
+        <div class="marca-titulo">
+          <span class="icone-cabecalho" aria-hidden="true">🛡️</span>
+          <div>
+            <h1 class="titulo-principal">Segurança Digital Fácil</h1>
+            <p class="subtitulo-principal">Guia prático e seguro para navegar na internet com tranquilidade</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Barra de Ferramentas de Acessibilidade Controladas por JS -->
+      <nav class="barra-acessibilidade" aria-label="Opções de Acessibilidade">
+        <span class="rotulo-acessibilidade">Acessibilidade:</span>
+        
+        <button id="botao-aumentar-fonte" class="botao-acessibilidade" type="button" title="Aumentar o tamanho do texto">
+          <span class="icone-botao" aria-hidden="true">🔍+</span>
+          <span>Aumentar Texto</span>
+        </button>
+
+        <button id="botao-diminuir-fonte" class="botao-acessibilidade" type="button" title="Diminuir ou restaurar o tamanho do texto">
+          <span class="icone-botao" aria-hidden="true">🔍-</span>
+          <span>Texto Normal</span>
+        </button>
+
+        <button id="botao-alto-contraste" class="botao-acessibilidade" type="button" title="Ativar ou desativar o modo de alto contraste">
+          <span class="icone-botao" aria-hidden="true">👁️</span>
+          <span>Alto Contraste</span>
+        </button>
+
+        <button id="botao-leitor-voz" class="botao-acessibilidade botao-leitor-voz" type="button" title="Ouvir a leitura da página em voz alta">
+          <span class="icone-botao" aria-hidden="true">🔊</span>
+          <span id="texto-botao-voz">Ouvir Página</span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main id="conteudo-principal" class="conteudo-principal" tabindex="-1">
+
+      <!-- Seção de Alerta de Emergência -->
+      <section class="secao-alerta-emergencia" aria-labelledby="titulo-emergencia">
+        <div class="conteudo-alerta-emergencia">
+          <span class="icone-alerta-emergencia" aria-hidden="true">🚨</span>
+          <div>
+            <h2 id="titulo-emergencia" class="titulo-alerta-emergencia">Desconfiou de alguma mensagem ou ligação?</h2>
+            <p class="texto-alerta-emergencia">
+              Pare e pense! Bancos e empresas sérias <strong>NUNCA</strong> pedem senhas ou códigos por telefone ou WhatsApp.
+              Na dúvida, desligue o telefone e chame um familiar de confiança!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Grade de Dicas Principais -->
+      <section class="secao-dicas" aria-labelledby="titulo-dicas">
+        <h2 id="titulo-dicas" class="titulo-secao">Dicas Fundamentais de Segurança</h2>
+
+        <div class="grade-cartoes">
+
+          <!-- Cartão 1 -->
+          <article class="cartao-dica">
+            <div class="cabecalho-cartao">
+              <span class="icone-cartao" aria-hidden="true">💬</span>
+              <h3 class="titulo-cartao">Mensagens no WhatsApp e SMS</h3>
+            </div>
+            <p class="texto-cartao">
+              Cuidado com mensagens de números desconhecidos dizendo que mudaram de número ou pedindo dinheiro urgente.
+            </p>
+            <div class="caixa-regras-cartao">
+              <span class="item-regra regra-atencao">⚠️️ NUNCA envie dinheiro sem antes ligar para a pessoa.</span>
+              <span class="item-regra regra-segura">✅ Sempre confirme a identidade por uma ligação normal.</span>
+            </div>
+          </article>
+
+          <!-- Cartão 2 -->
+          <article class="cartao-dica">
+            <div class="cabecalho-cartao">
+              <span class="icone-cartao" aria-hidden="true">🔑</span>
+              <h3 class="titulo-cartao">Suas Senhas Secretas</h3>
+            </div>
+            <p class="texto-cartao">
+              Suas senhas são como a chave da sua casa. Nunca anote senhas no celular sem proteção e não as informe a ninguém.
+            </p>
+            <div class="caixa-regras-cartao">
+              <span class="item-regra regra-atencao">⚠️ Não use datas de aniversário fáceis de adivinhar.</span>
+              <span class="item-regra regra-segura">✅ Guarde seu caderno de senhas em um local seguro em casa.</span>
+            </div>
+          </article>
+
+          <!-- Cartão 3 -->
+          <article class="cartao-dica">
+            <div class="cabecalho-cartao">
+              <span class="icone-cartao" aria-hidden="true">🔗</span>
+              <h3 class="titulo-cartao">Links Estranhos e Falsos</h3>
+            </div>
+            <p class="texto-cartao">
+              Recebeu uma mensagem dizendo que você ganhou um prêmio ou precisa atualizar seus dados bancários?
+            </p>
+            <div class="caixa-regras-cartao">
+              <span class="item-regra regra-atencao">⚠️ Não clique em links azuis enviados por desconhecidos.</span>
+              <span class="item-regra regra-segura">✅ Apague a mensagem de texto ou e-mail duvidoso.</span>
+            </div>
+          </article>
+
+          <!-- Cartão 4 -->
+          <article class="cartao-dica">
+            <div class="cabecalho-cartao">
+              <span class="icone-cartao" aria-hidden="true">🏦</span>
+              <h3 class="titulo-cartao">Golpes do Banco e Falso Atendente</h3>
+            </div>
+            <p class="texto-cartao">
+              Se alguém ligar dizendo ser do seu banco pedindo para cancelar uma compra ou transferir dinheiro para "proteção":
+            </p>
+            <div class="caixa-regras-cartao">
+              <span class="item-regra regra-atencao">⚠️ Desligue a ligação imediatamente. O banco não faz isso!</span>
+              <span class="item-regra regra-segura">✅ Vá pessoalmente à sua agência ou use o número do verso do cartão.</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Seção Guia Passo a Passo -->
+      <section class="secao-expandivel" aria-labelledby="titulo-passos">
+        <h2 id="titulo-passos" class="titulo-secao">Guia Prático: O que fazer em cada situação?</h2>
+
+        <details class="item-expandivel">
+          <summary class="cabecalho-expandivel">
+            <span class="titulo-expandivel">O que fazer se pedirem meu Pix no WhatsApp?</span>
+            <span class="icone-indicador-expansao" aria-hidden="true">▼</span>
+          </summary>
+          <div class="conteudo-expandivel">
+            <ol class="lista-passos">
+              <li><strong>Pare:</strong> Não faça a transferência imediatamente, mesmo se disserem que é urgente.</li>
+              <li><strong>Ligue:</strong> Faça uma chamada de voz para o número antigo do seu parente ou amigo.</li>
+              <li><strong>Pergunte:</strong> Faça uma pergunta particular que só a pessoa saberia responder.</li>
+            </ol>
+          </div>
+        </details>
+
+        <details class="item-expandivel">
+          <summary class="cabecalho-expandivel">
+            <span class="titulo-expandivel">Como saber se um site de compras é seguro?</span>
+            <span class="icone-indicador-expansao" aria-hidden="true">▼</span>
+          </summary>
+          <div class="conteudo-expandivel">
+            <ul class="lista-passos">
+              <li>Verifique se há um desenho de 🔒 (cadeado) antes do endereço do site.</li>
+              <li>Desconfie de preços excessivamente baixos ou milagrosos.</li>
+              <li>Opte por comprar em lojas conhecidas ou indicadas por familiares.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="item-expandivel">
+          <summary class="cabecalho-expandivel">
+            <span class="titulo-expandivel">Recebi uma ligação dizendo que meu cartão foi clonado. E agora?</span>
+            <span class="icone-indicador-expansao" aria-hidden="true">▼</span>
+          </summary>
+          <div class="conteudo-expandivel">
+            <p class="texto-passos">
+              Desligue o telefone na hora! Não passe senha, não digite números e não entregue seu cartão a nenhum motoboy. Ligue para o número impresso atrás do seu cartão bancário usando outro telefone se possível.
+            </p>
+          </div>
+        </details>
+      </section>
+
+      <!-- Seção de Teste Rápido de Conhecimento -->
+      <section class="secao-teste" aria-labelledby="titulo-teste">
+        <h2 id="titulo-teste" class="titulo-secao">Teste de Segurança: Você Saberia o Que Fazer?</h2>
+        <p class="descricao-secao">Clique na opção correta para verificar sua resposta:</p>
+
+        <article class="cartao-pergunta-teste">
+          <h3 class="titulo-pergunta-teste">Situação: Você recebe uma mensagem no WhatsApp dizendo: "Oi mãe, mudei de número. Preciso pagar uma conta urgente hoje, me manda um Pix?"</h3>
+          
+          <div class="opcoes-resposta-teste">
+            <details class="opcao-resposta resposta-errada">
+              <summary class="cabecalho-opcao-resposta">A) Enviar o Pix na hora para ajudar o filho.</summary>
+              <p class="feedback-resposta">❌ <strong>Incorreto!</strong> Golpistas costumam usar fotos de parentes para pedir dinheiro urgente. Sempre confirme antes por telefone!</p>
+            </details>
+
+            <details class="opcao-resposta resposta-correta">
+              <summary class="cabecalho-opcao-resposta">B) Ligar para o número antigo do seu filho para confirmar se é ele mesmo.</summary>
+              <p class="feedback-resposta">✅ <strong>Parabéns! Resposta Correta!</strong> Sempre confirme por ligação ou viva-voz antes de enviar qualquer valor.</p>
+            </details>
+          </div>
+        </article>
+      </section>
+
+      <!-- Seção de Telefones Úteis -->
+      <section class="secao-telefones-uteis" aria-labelledby="titulo-telefones">
+        <h2 id="titulo-telefones" class="titulo-secao">Contatos Importantes e de Ajuda</h2>
+        <div class="grade-telefones">
+          <div class="cartao-telefone">
+            <span class="icone-telefone" aria-hidden="true">📞</span>
+            <span class="nome-servico">Polícia Militar</span>
+            <strong class="numero-telefone">190</strong>
+          </div>
+          <div class="cartao-telefone">
+            <span class="icone-telefone" aria-hidden="true">🛡️</span>
+            <span class="nome-servico">Disque Denúncia</span>
+            <strong class="numero-telefone">181</strong>
+          </div>
+          <div class="cartao-telefone">
+            <span class="icone-telefone" aria-hidden="true">👵</span>
+            <span class="nome-servico">Direitos dos Idosos</span>
+            <strong class="numero-telefone">Disque 100</strong>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape-principal" role="contentinfo">
+      <p class="texto-rodape">
+        Aplicativo Acessível de Segurança Digital para Idosos • Desenvolvido com HTML, CSS e JavaScript
+      </p>
+      <p class="subtexto-rodape">
+        Sua segurança e tranquilidade vêm sempre em primeiro lugar. Compartilhe com amigos e familiares!
+      </p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
